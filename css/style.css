@@ -1,0 +1,243 @@
+#title{
+    background-color: #30ebf1;
+}
+
+h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;   
+    color: rgb(199, 0, 182);
+}
+
+h2{
+  font-size: 2.5rem;
+  font-family: 'Chewy', cursive;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+/* nag baba  ng navbar para mag ka space sa taas*/
+.container-fluid {
+    padding: 4% 4%;
+}
+/* font ng mobile legend*/
+.navbar-brand {
+    font-family: 'Rubik Mono One';
+    font-size: 2rem;
+}
+/* space ng mga item*/
+.nav-item{
+    padding: 0 2px;
+}
+
+.navbar {
+    padding-bottom: 2.5rem;
+}
+/* Nagbabago nav background or naeexpand and mga item*/
+.nav-link{
+    font-size: 1.5rem;
+    font-family: 'Chewy', cursive;
+}
+
+.front-image  {
+    height: 52%;
+    width: 38%;
+    position: absolute;
+    padding-bottom: 4%;
+}
+
+/*MEDIA QUERY*/
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .front-image{
+    height: 90%;
+    width: 80%;
+    transform: rotate(0);
+    position: static;
+  }
+}
+.download-button { 
+  margin: 5% 3% 15% 0%;
+}
+
+/*features section*/
+#features{
+  padding: 2% 5%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.fa-Game {
+    color: rgb(16, 19, 170);
+    font-size: 3rem;
+  }
+  /* ito yung pag tinap or pag tinutuk mo yung arrow mag chachange ang color*/
+  .fa-Game:hover {
+    color: rgb(24, 221, 41);
+  }
+
+/* ito yung color nang icon*/
+.fa-fcebook {
+    color: rgb(93, 9, 133);
+    font-size: 3rem;
+  }
+  /* ito yung pag tinap or pag tinutuk mo yung arrow mag chachange ang color*/
+  .fa-fcebook:hover {
+    color: rgb(24, 77, 221);
+  }
+
+  .fa-tktok {
+    color: rgb(238, 241, 9);
+    font-size: 3rem;
+  }
+  /* ito yung pag tinap or pag tinutuk mo yung arrow mag chachange ang color*/
+  .fa-tktok:hover {
+    color: rgb(0, 0, 0);
+  }
+/* ito yung margin at padding ng row ng mga icon at parangraph*/
+  .Echo{
+    padding: 5% 4%;
+    margin-top: 2%;
+    text-align: center;
+  }
+
+ /* Media Query Features Section  */
+@media (max-width:992px){
+  #features {
+    text-align: center;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 12px;
+  }
+  .fa-Game {
+    text-align: center;
+    font-size: 3rem;
+  }
+  .fa-fcebook {
+    text-align: center;
+    font-size: 3rem;
+  }
+  .fa-tktok {
+    text-align: center;
+    font-size: 3rem;
+  }
+}
+
+  /*testimonials*/
+  #testimonials {
+    padding: 2% 15%;
+    text-align: center;
+    background-color: #30ebf1;
+    color: rgba(0, 0, 0, 0.712)
+  }
+
+  .carousel-item {
+    padding: 7% 15%;
+  }
+
+  .circle-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+ /* Media Query Testimonials Section */ 
+@media (max-width:1028px) { 
+  h2 { 
+     font-size: 1.5rem;
+   } 
+  
+  em { 
+   font-size: 10px; 
+  } 
+  
+  .circle-image{
+   width: 70px; 
+   height: 70px; 
+  }
+}
+
+  #press {
+    background-color: #30ebf1;
+    text-align: center;
+    padding-bottom: 3;
+  }
+
+  .album {
+    height: 50%;
+    width: 20%;
+    margin: 0px 3px 30px;
+  }
+
+/* Media Query Press Section */ 
+@media (max-width:1028px) {
+  .album {
+    height: 175px;
+    width: 220px;
+  }
+  }
+
+/*pricing*/
+
+.container{
+  text-align: center;
+  padding: 5% 0;
+}
+
+.cardcontainer{
+  text-align: center;
+  padding: 0% 5% 5%;
+}
+
+.card{
+  margin-bottom: 5%;
+}
+
+.card-header{
+  background-color: #30ebf1;
+}
+
+.card-body{
+  background-color: #f0b9fdc4;
+}
+
+
+/*media query ng pricing*/
+@media (max-width:1028px){
+  #pricing{
+    text-align: center;
+  }
+
+  h2 { 
+     font-size: 1.5rem;
+   } 
+   p {
+    font-size: 12px;
+   }
+  }
+
+  #finals{
+    text-align: center;
+    background-color: #30ebf1; 
+    padding: 10% 20% 5% 20%;
+  }
+
+  .download-button {
+    margin: 5% 3% 5% 0%;
+  }
+
+  #footer{
+    text-align: center;
+    background-color:white;
+    padding: 5% 20% 5% 20%;
+    font-size: 1rem;
+  }
+ 
